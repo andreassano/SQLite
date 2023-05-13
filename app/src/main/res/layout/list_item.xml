@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@+id/cardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="12dp"
+    android:elevation="4dp"
+    app:cardUseCompatPadding="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        >
+
+        <TextView
+            android:id="@+id/txtNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Andreas Novito Andi Sano"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+
+            />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/txtNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20102017@ittelkom-pwt.ac.id"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+
+            />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
